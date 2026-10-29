@@ -1,0 +1,111 @@
+<! Doctype="html>
+<html>
+<header></header>
+<body>
+    <title>Day -10 Switching Radio Button Interaction animation || pranjal vidyarthi</title>
+    <div class="card">
+	<h2>Radio Buttons</h2>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,900">
+	
+	<ul>
+		<li>
+			<input type="radio" name="name" id="one" checked />
+			<label for="one">Option #1</label>
+			
+			<div class="check"></div>
+		</li>
+		
+		<li>
+			<input type="radio" name="name" id="two" />
+			<label for="two">Option #2</label>
+			
+			<div class="check"></div>
+		</li>
+	</ul>
+</div>
+    <style>
+    /* Variables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+	--primary-c: #2196F3;
+	--secondary-c: #B2D7F5;
+	
+	--white: #FDFBFB;
+	
+	--text: #082943;	
+	--bg: var(--primary-c);
+}
+
+
+/* Basic Config
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html, body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+  background-color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	font-family: 'Raleway', sans-serif;
+	color: var(--text);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 50px;
+	margin: 0;
+}
+
+li {
+	display: block;
+	position: relative;
+	padding: 20px 0px;
+}
+
+h2 {
+	margin: 10px 0;
+	font-weight: 900;
+}
+
+
+/* Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.card {
+	display: flex;
+	flex-direction: column;	
+	background: var(--white);
+	width: 300px;
+	padding: 20px 25px;
+	border-radius: 20px;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.13);
+}
+
+
+/* Radio Button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type=radio] {
+	position: absolute;
+	visibility: hidden;
+}
+
+label { 
+	cursor: pointer; 
+	font-weight: 400;
+}
+
+.check {
+	width: 30px; height: 30px;
+	position: absolute;
+	border
+
+
+    </style>
+    
+</body>
+</html>
