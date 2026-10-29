@@ -28,9 +28,6 @@ Containers | Layout helpers
 Buttons | Ready-to-use button styles
 Cards | Simple card UI
 ```
-
-> *(Update this list with the actual utilities in your repo for clarity.)*
-
 ---
 
 ## 🚀 How to Use
